@@ -1,4 +1,4 @@
-Bandage E-commerce Website
+<h1>Bandage E-commerce Website<h1/>
 
 1. Project Overview
 This project focuses on building the technical foundation for a marketplace, transitioning from business-oriented planning to technical implementation. The goal is to create a scalable, functional, and user-friendly marketplace that aligns with real-world business needs.
