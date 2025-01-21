@@ -67,30 +67,32 @@
     <tbody>
       <tr>
         <td>/api/products</td>
-        <td>/api/cart</td>
-        <td>/api/order</td>
-        <td>/api/shipping</td>
-        <td>/api/inventory</td>
-      </tr>
-      <tr>
         <td>GET</td>
-        <td>POST</td>
-        <td>POST</td>
-        <td>GET</td>
-        <td>GET</td>
-      </tr>
-      <tr>
         <td>Retrieve all product listings</td>
-        <td>Add an item to the user’s cart</td>
-        <td>Submit a new order</td>
-       <td>Fetch real-time shipping updates</td>
-       <td>Check inventory levels for products</td>
+        <td>[ { "id": 1, "name": "Laptop X", "price": 1500 } ]</td>
       </tr>
       <tr>
-       <td>[ { "id": 1, "name": "Laptop X", "price": 1500 } ]</td>
-       <td>{ "cartId": "xyz789", "status": "success" } </td>
+        <td>/api/cart</td>
+        <td>POST</td>
+        <td>Add an item to the user’s cart</td>
+        <td>{ "cartId": "xyz789", "status": "success" }</td>
+      </tr>
+      <tr>
+        <td>/api/order</td>
+        <td>POST</td>
+        <td>Submit a new order</td>
        <td>{ "orderId": 456, "status": "completed" }</td>
+      </tr>
+      <tr>
+       <td>/api/shipping</td>
+       <td>GET </td>
+       <td>Fetch real-time shipping updates</td>
        <td>{ "trackingId": "trk123", "status": "In Transit" }</td>
+      </tr>
+      <tr>
+       <td>/api/inventory</td>
+       <td>GET </td>
+       <td>Check inventory levels for products</td>
        <td>[ { "id": 2, "stock": 10 } ]</td>
       </tr>
     </tbody>
