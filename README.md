@@ -98,7 +98,7 @@
 
   <h1>Sanity CMS Schema Example</h1>
 
-  <p>import { defineType, defineField } from "sanity";
+  import { defineType, defineField } from "sanity";
 
 export default defineType({
   name: "product",
@@ -135,7 +135,7 @@ export default defineType({
       type: "blockContent",
     }),
   ],
-});</p>
+});
 
 <h1>Roadmap for Development</h1>
 <h3>Step 1: Foundation Setup</h3>
