@@ -1,3 +1,4 @@
+<h1>Day 2</h1>
 <h1>Bandage E-commerce Website</h1>
 
 <h2>Introduction</h2>
